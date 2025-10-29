@@ -72,4 +72,24 @@ html {
         mark{
                 background-color: #ABE7B2;
         }
+        table, tr, td, caption {
+                border: 1px solid white;
+                font-family: 'Courier New', Courier, monospace;
+                border-collapse: collapse;
+                padding: 0.5pc;
+        }
+
+        td:hover{
+                background:#412B6B;
+        }
+        
+        th:hover {
+                background: #811844;
+        }
+
+        caption:hover{
+                background: darkgoldenrod;
+                color: black;
+                font-size:x-large;
+        }
         
