@@ -95,25 +95,27 @@ html {
 
         fieldset{
                color: #F5AD18;
+               border: 2px solid #412B6B; /* Make border visible */
+                padding: 1rem;
+                margin: 1rem 0;
+        }
+
+        legend{
+                color: #F25912;
         }
 
         
-        #submit{
+        #submit, #reset{
                 padding: 8px 20px;
                 font-weight: bold;
                 cursor: pointer;
                 border-radius: 8px;
+                border: none; /* Remove default border */
+                margin: 5px; /* Add some spacing */
         }
 
         #submit:hover{
                 background: #78C841;
-        }
-
-        #reset{
-                padding: 8px 20px;
-                font-weight: bold;
-                cursor: pointer;
-                border-radius: 8px;
         }
 
         #reset:hover{
