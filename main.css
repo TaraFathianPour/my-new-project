@@ -92,4 +92,30 @@ html {
                 color: black;
                 font-size:x-large;
         }
+
+        fieldset{
+               color: #F5AD18;
+        }
+
         
+        #submit{
+                padding: 8px 20px;
+                font-weight: bold;
+                cursor: pointer;
+                border-radius: 8px;
+        }
+
+        #submit:hover{
+                background: #78C841;
+        }
+
+        #reset{
+                padding: 8px 20px;
+                font-weight: bold;
+                cursor: pointer;
+                border-radius: 8px;
+        }
+
+        #reset:hover{
+                background: #FB4141;
+        }

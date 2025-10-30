@@ -110,13 +110,81 @@
     <section id="contact">
         <h2>Get In Touch</h2>
         <p>I'm always open to discussing new opportunities, creative projects, or potential collaborations.</p>
-        <p>The best way to reach me is via email:</p>
+        <p>The best way to reach me is via email: </p>
         <a href="mailto:fathianpourtara@gmail.com">My email address</a>
         <p>You can also find me on these platforms:</p>
             <div>
                 <a href="https://github.com/TaraFathianPour" target="_blank">GitHub</a> <br>
                 <a href="https://www.instagram.com/tara.fathianpour/" target="_blank">Instagram</a>
             </div>
+        <p>Have a project in mind? Let's work together to bring your ideas to life!</p>
+
+            <form class="contact-form" action="https://formspree.io/f/xgvpzyqd" method="POST">
+                <fieldset>
+                    <legend>Personal Info</legend>
+                <p>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName" autocomplete="on" required> 
+                </p>
+                <p>  
+                    <label for="email">Your Email : </label>
+                    <input type="email" name="email" id="email" required autofocus placeholder="example@gmail.com" autocomplete="on">
+                </p> 
+                <!-- <p>
+                    <label for="service">Service Needed</label>
+                     <select id="service" name="service">
+                        <option value="web-development" selected>Web Development</option>
+                        <option value="ui-ux-design">UI/UX Design</option>
+                        <option value="game-design">Game Design</option>
+                        <option value="other">Other</option>
+                     </select>
+                </p>  -->
+                <p>
+                    <label for="service">Service Needed :</label>
+                    <input type="text" name="service" id="service" list="service-list" required>
+                    <datalist id="service-list">
+                        <option value="web-development">
+                        <option value="ui-ux-design">
+                        <option value="game-design">
+                        <option value="other">
+                    </datalist>
+                </p>
+                <p>
+                     <label for="message">Your Message :</label>
+                     <textarea name="message" id="message" rows="3" cols="25" placeholder="Type your message here"></textarea>
+                </p>
+                <button type="submit" id="submit">Submit</button>
+                <button type="reset" id="reset">Reset</button>
+                </fieldset>
+                <!-- <br>
+                <fieldset>
+                    <legend>Favorite Movies</legend>
+                    <p>
+                        <input type="radio" name="movies" id="avengers" value="avengers">
+                        <label for="avengers">Avengers</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="movies" id="thor" value="thor">
+                        <label for="thor">Thor</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="movies" id="other" value="other">
+                        <label for="other">other</label>
+                    </p>
+                </fieldset> -->
+                <br>
+                <!-- <fieldset>
+                    <legend>Do you have a pet?</legend>
+                    <p>
+                        <input type="checkbox" name="pets" id="dog" value="dog">
+                        <label for="dog">Dog</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pets" id="cat" value="cat">
+                        <label for="cat">Cat</label>
+                    </p>
+                </fieldset> -->
+            </form>    
     </section>   
     <p>
         <a href="#">Back to Top</a>
